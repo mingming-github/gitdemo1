@@ -36,9 +36,9 @@ function signin(req,res){
 	res.write('			</head>');
 	res.write('			<body>');
 	res.write('				<form action="/post" method="post">');
-	res.write('					<span>用户名：</span>');
+	res.write('					<span>用户名是：</span>');
 	res.write('					<input type="text" name="usename"/><br />');
-	res.write('					<span>密码：</span>');
+	res.write('					<span>密码是：</span>');
 	res.write('					<input type="password" name="pwd"/>');
 	res.write('					<input type="submit"/>');
 	res.write('				</form>');
