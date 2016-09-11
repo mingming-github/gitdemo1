@@ -22,7 +22,7 @@ var sever=http.createServer(function(req,res){
 });
 
 sever.listen(8080,function(err){
-	console.log('监听8080成功');
+	console.log('监听8080端口成功');
 })
 
 function signin(req,res){
