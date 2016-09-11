@@ -12,7 +12,7 @@ var sever=http.createServer(function(req,res){
 	res.end();
 });
 sever.listen(8080,function(err){
-	console.log("成功监听8080端口");
+	console.log("已成功监听8080端口");
 });
 
 
